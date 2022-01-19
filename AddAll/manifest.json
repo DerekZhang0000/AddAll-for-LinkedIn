@@ -3,7 +3,7 @@
   "description":  "Send a request to connect with everyone on your LinkedIn page",
   "version":  "1.0",
   "manifest_version": 3,
-  "permissions": ["activeTab", "scripting", "storage", "tabs"],
+  "permissions": ["activeTab", "scripting", "tabs"],
   "options_page": "options.html",
   "content_scripts":  [
     {
