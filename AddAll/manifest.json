@@ -1,0 +1,29 @@
+{
+  "name": "AddAll for LinkedIn",
+  "description":  "Send a request to connect with everyone on your LinkedIn page",
+  "version":  "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "options_page": "options.html",
+  "content_scripts":  [
+    {
+      "matches": ["*://*.linkedin.com/mynetwork/"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "logo16x16.png",
+      "32": "logo32x32.png",
+      "48": "logo48x48.png",
+      "128": "logo128x128.png"
+    },
+    "default_title": "AddAll for LinkedIn"
+  },
+  "icons": {
+    "16": "logo16x16.png",
+    "32": "logo32x32.png",
+    "48": "logo48x48.png",
+    "128": "logo128x128.png"
+  }
+}
