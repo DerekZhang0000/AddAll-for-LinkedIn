@@ -17,6 +17,6 @@ Chrome extension that automatically sends connection requests to everyone on you
 # Details
 - Version: 1.1
 - Author: Derek Zhang
-- How to use: Navigate to your networks page on LinkedIn directly or navigate from another LinkedIn page and refresh.
+- How to use: Navigate to your network page on LinkedIn directly or navigate from another LinkedIn page and refresh.
 - AddAll sends a request to all loaded connections every 2 seconds.
 - AddAll does not send follow requests to organizations or influencers.
