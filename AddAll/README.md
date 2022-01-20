@@ -6,7 +6,7 @@ Chrome extension that automatically sends connection requests to everyone on you
 - AddAll for LinkedIn is not associated with LinkedIn, and is only meant to be used in conjunction with it.
 - LinkedIn may suspect your account is a bot if you use this extension too often.
 
-# How to use:
+# Setup:
 1. Download zip file and extract it in its folder
 ![](step1.png) ![](step1.5.png)
 2. Go to your extension dashboard in Google Chrome and enable developer mode
