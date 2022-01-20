@@ -2,11 +2,11 @@ var containerNames;
 function main() {
     if (document.readyState !== "complete") {
         window.setTimeout(function() {main()}, 1000);
-    }
-    else {
-        window.setTimeout(function() {
+    } else {
+        setInterval(function() {
             containerNames = document.getElementsByClassName("artdeco-button artdeco-button--2 artdeco-button--secondary ember-view full-width");
             connect();
+            containerNames = "";
         },
         2000);
     }
